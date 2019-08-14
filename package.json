@@ -1,0 +1,46 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "description": "Пример структуры проекта для верстки + gulp config",
+  "main": "public/index.html",
+  "repository": "https://github.com/dimkadenisov/project-sample.git",
+  "author": "Dmitry Denisov",
+  "license": "MIT",
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-jsbeautifier": "^3.0.0",
+    "gulp-load-plugins": "^2.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-resolve-url": "^0.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "stream-combiner2": "^1.1.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-scss": "^3.9.0",
+    "swiper": "^4.5.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11"
+  ]
+}
