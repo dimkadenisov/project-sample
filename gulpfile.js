@@ -30,7 +30,7 @@ lazyRequireTask('styles', './tasks/styles', {
   dest: 'public/styles',
 });
 
-lazyRequireTask('styles:libs', './tasks/styles:libs', {
+lazyRequireTask('styles:libs', './tasks/styles-libs', {
   src: 'frontend/styles/libraries/*.*',
   dest: 'public/styles/libraries',
 });
@@ -46,7 +46,7 @@ lazyRequireTask('scripts:libs', './tasks/copy', {
   dest: 'public/scripts/libraries',
 });
 
-lazyRequireTask('svg:min', './tasks/svg:min', {
+lazyRequireTask('svg:min', './tasks/svg-min', {
   src: 'frontend/assets/icons/*.svg',
   dest: 'public/assets/icons',
   plugins: [
@@ -97,7 +97,7 @@ lazyRequireTask('svg:min', './tasks/svg:min', {
   ]
 });
 
-lazyRequireTask('svg:sprite', './tasks/svg:sprite', {
+lazyRequireTask('svg:sprite', './tasks/svg-sprite', {
   src: 'frontend/assets/icons/sprite/*.svg',
   dest: 'frontend/assets/icons/sprite/',
   config: {
